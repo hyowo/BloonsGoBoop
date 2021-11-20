@@ -37,6 +37,12 @@
     <Filter Include="Game Menu">
       <UniqueIdentifier>{9375c5e7-7b2d-42a4-ac4e-a11f0d82dc8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="IL2CPP-API">
+      <UniqueIdentifier>{37e61933-27ea-4bf1-a124-27d4f88210f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BTD6Memory">
+      <UniqueIdentifier>{4245339c-82d5-463f-9979-be50ba260eaa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -78,8 +84,14 @@
     <ClCompile Include="kiero\minhook\src\hde\hde64.c">
       <Filter>kiero\minhook\src\hde</Filter>
     </ClCompile>
-    <ClCompile Include="Initialize.cpp">
+    <ClCompile Include="Menu.cpp">
       <Filter>Game Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="BloonsTowerDefense6.cpp">
+      <Filter>BTD6Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>BTD6Memory</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -137,8 +149,20 @@
     <ClInclude Include="kiero\minhook\src\hde\table64.h">
       <Filter>kiero\minhook\src\hde</Filter>
     </ClInclude>
-    <ClInclude Include="Initialize.h">
+    <ClInclude Include="Menu.h">
       <Filter>Game Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP-Api\il2cpp.h">
+      <Filter>IL2CPP-API</Filter>
+    </ClInclude>
+    <ClInclude Include="IL2CPP-Api\types.h">
+      <Filter>IL2CPP-API</Filter>
+    </ClInclude>
+    <ClInclude Include="BloonsTowerDefense6.h">
+      <Filter>BTD6Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>BTD6Memory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
