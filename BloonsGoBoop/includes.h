@@ -10,9 +10,7 @@
 #include "imgui/imgui_impl_win32.h"
 #include "imgui/imgui_impl_dx11.h"
 #include "Menu.h"
-#include "IL2CPP-Api/il2cpp.h"
-#include "IL2CPP-Api/types.h"
-#include "BloonsTowerDefense6.h"
+#include "Offsets.h"
 
 using namespace std;
 
